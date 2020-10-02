@@ -1,19 +1,22 @@
 '''
-pip install pyttsx3
-pip install datetime 
-pip install SpeechRecognition
-pip install wikipedia
-pip install webbrowser ~Standard Library, No need to install
-pip install os
-(pip install pipwin)
-pip intsall pyaudio
-'''
+Modules to install:
+    pip install pyttsx3 
+    pip install SpeechRecognition
 
+    pip install datetime
+    pip install wikipedia
+    pip install os      #If you want to open files or apps for your desktop
+
+    If pyaudio is not showing any efforts even after instaliing so many times try pipwin
+    (pip install pipwin)
+    pip intsall pyaudio
+'''
+#Importing modules
 import pyttsx3
 import datetime
 import speech_recognition as sr
 import wikipedia
-import webbrowser
+import webbrowser   #Standard Library(No need to install)
 #import os
 
 #importing pyttsx3
